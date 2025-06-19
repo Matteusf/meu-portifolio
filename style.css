@@ -149,31 +149,66 @@ body {
         opacity: 1;
     }
 }
-
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
 .sobre{
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*justify-content: space-between;*/
+   /* align-items: center;*/
     padding: 70px 10%;
     background: #2d2d2d;
 }
-.heading{
-    text-align: center;
-    font-size: 4.5rem;
+
+.sobre-conteudo {
+    margin-top: 50px;
+    width: 100%;
+    
 }
 .sobre-conteudo h2{
     text-align: left;
     line-height: 1.2;
 }
-.sobre-conteudo h3{
+.portifolio-conteudo h2{
+    text-align: left;
+    line-height: 1.2;
+}
+.sobre-conteudo h2{
    font-size: 2.6rem;
 }
+.portifolio-conteudo h2{
+    font-size: 2.6rem;
+ }
 .sobre-conteudo h3{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
  }
+ .portifolio-conteudo h3{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+ }
+ 
+ .portifolio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /*justify-content: space-between;
+    align-items: center;*/
+    padding: 70px 10%;
+    background: #1f242d;
+}
+.portifolio-conteudo{
+    margin-top: 50px;
+    width: 100%;
+    background: #2d2d2d;
+}
+img{
+    max-width: 60%;
+    height: auto;
+}
 /**/
 @media (max-width:991px){
     .header{
@@ -182,7 +217,10 @@ body {
     section{
         padding: 10rem 3%;
     }
-
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 @media (max-width:768px){
     #icone-menu{
@@ -207,6 +245,10 @@ body {
         display: block;
         font-size: 2rem ;
         margin: 3rem 0;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
     }
 }
 
