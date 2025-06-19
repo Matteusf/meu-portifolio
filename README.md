@@ -1,3 +1,3 @@
 # meu-portifolio
-https://github.com/Matteusf/meu-portifolio.git
+Link para acesso ao portfólio:
 https://matteusf.github.io/meu-portifolio/
